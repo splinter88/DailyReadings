@@ -18,5 +18,7 @@ public class Quotes {
 
     public String getNextQuote() {
         return quotes[index++ % quotes.length];
+        // Testing...
+        // Adding commit to wall of quotes.
     }
 }
