@@ -18,5 +18,6 @@ public class Quotes {
 
     public String getNextQuote() {
         return quotes[index++ % quotes.length];
+        // Testing...
     }
 }
